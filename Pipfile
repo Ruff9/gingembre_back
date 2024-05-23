@@ -5,6 +5,9 @@ name = "pypi"
 
 [packages]
 django = "==5.*"
+django-environ = "==0.11.*"
+dj-database-url = "*"
+psycopg2 = "*"
 
 [dev-packages]
 
