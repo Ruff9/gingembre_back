@@ -9,6 +9,7 @@ django-environ = "==0.11.*"
 dj-database-url = "*"
 psycopg2 = "*"
 djangorestframework = "==3.*"
+django-cors-headers = "==4.*"
 
 [dev-packages]
 
