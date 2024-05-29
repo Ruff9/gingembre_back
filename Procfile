@@ -1,2 +1,2 @@
-web: gunicorn myapp.wsgi --log-file -
+web: gunicorn gingembre.wsgi --log-file -
 postdeploy: python manage.py migrate
