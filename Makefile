@@ -1,5 +1,7 @@
+SHELL := zsh
+
 dev:
-	pipenv shell \
+	- pipenv shell
 	python manage.py runserver
 
 deploy:
